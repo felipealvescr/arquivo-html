@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AV Viagens - Levando você aos seus sonhos!</title>
+    <link rel="stylesheet" type="text/css" href="av_viagens.css">
+</head>
+<body>
+    <h1 id="header">AV Viagens<br>Levando você aos seus sonhos!</h1>
+    <table id="nav">
+        <tr>
+            <td><a class="a_decoration" href="#">Home</a></td>
+            <td><a class="a_decoration" href="#">Quem Somos</a></td>
+            <td><a class="a_decoration" href="#">Enquete</a></td>
+            <td><a class="a_decoration" href="#">Contato</a></td>
+            <td><a class="a_decoration" href="#">Localização</a></td>
+        </tr>
+    </table>
+    <hr>
+    <table id="sobre_nos">
+        <tr>
+            <td><img src="av_viagens_nos.jpg" alt="Sobre nós"></td>
+            <td>
+                <h2>Sobre nós</h2>
+                <p id="p_sobre_nos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus excepturi fugit qui, fugiat architecto commodi eveniet placeat. Repellat fugit deleniti impedit totam voluptatibus. Blanditiis vel provident odio fugiat voluptatum in laborum numquam, quaerat nobis libero? Reiciendis architecto aut excepturi provident aliquam laudantium sint nesciunt voluptate explicabo nam? Natus, quis.</p></td>
+        </tr>
+    </table>
+    <div id="div_background">
+    <div id="div_enquete">
+        <form>
+            <h2>Qual destino você prefere?</h2>
+            <div>
+                <label class="form_texto" for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <fieldset>
+                    <legend class="form_texto">Melhores destinos:</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="destino" id="paris" value="paris"> <label class="form_texto" for="paris">Paris</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="destino" id="londres" value="londres"> <label class="form_texto" for="londres">Londres</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="destino" id="india" value="india"> <label class="form_texto" for="india">Índia</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="destino" id="italia" value="italia"> <label class="form_texto" for="italia">Itália</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="destino" id="rio_de_janeiro" value="rio_de_janeiro"> <label class="form_texto" for="rio_de_janeiro">Rio de Janeiro</label>
+                        </li>
+                    </ul>
+                    <input type="submit" id="btn_enviar">
+                </fieldset>
+            </div>
+            </div>
+        </form>
+    </div>
+    <div id="div_background2">
+        <div id="div_contato">
+            <form>
+                <h2>Em que posso ajudar?</h2>
+                <div>
+                    <label class="form_texto" for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome">
+            </form>
+        </div>
+    </div>
+</body>
+</html> 
